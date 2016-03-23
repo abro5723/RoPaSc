@@ -46,6 +46,27 @@ public class RoPaScPanel extends JPanel
 			public void actionPerformed(ActionEvent click)
 			{
 				userChoice.setText("Rock");
+				
+				if(baseController.cpuChoice.equals(userChoice) == true)
+				{
+					
+				}
+			}
+		});
+		
+		paperButton.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent click)
+			{
+				userChoice.setText("Paper");
+			}
+		});
+		
+		scissorButton.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent click)
+			{
+				userChoice.setText("Scissors");
 			}
 		});
 	}

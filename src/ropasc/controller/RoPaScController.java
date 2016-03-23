@@ -16,7 +16,7 @@ public class RoPaScController
 	String cpuRock;
 	String cpuPaper;
 	String cpuScissors;
-	String cpuChoice;
+	public String cpuChoice;
 	
 	public ArrayList<String> userTies;
 	public ArrayList<String> userWins;
