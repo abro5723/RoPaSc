@@ -20,6 +20,9 @@ public class RoPaScPanel extends JPanel
 	private JButton paperButton;
 	private SpringLayout baseLayout;
 	private JLabel userChoice;
+	private JLabel wins;
+	private JLabel losses;
+	private JLabel ties;
 	
 	public RoPaScPanel(RoPaScController baseController)
 	{
